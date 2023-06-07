@@ -8,16 +8,15 @@
 Adafruit_SSD1306 display(OLED_RESET);
 
 #define WIFI_SSID "george"//"HTC"//"george"//"George"//"Xiaomi 11T"
-#define WIFI_PASSWORD  "1234567891"//"Z5N35W123"//"1234567891"  //"12345678"//"George1980"//"1234567891"
-//#define WIFI_SSID "george"//"George"//"Xiaomi 11T"
-//#define WIFI_PASSWORD  "1234567891"  //"12345678"//"George1980"//"1234567891"
+#define WIFI_PASSWORD  "1234567891"//""//"1234567891"  //"12345678"//"George1980"//"1234567891"
+
 WiFiClientSecure secured_client;
-//#define BOT_TOKEN "5967306578:AAGIY_AzRAJTxaG78yA2HzQlvKiwa5XWzm0"//GeorgeHomeBot
-#define BOT_TOKEN "5870790444:AAFm2znUWphDseKkliHksLd84xV_4nqKUfA"//GRGMrz1980Bot
+//#define BOT_TOKEN ""//GeorgeHomeBot
+#define BOT_TOKEN ""//GRGMrz1980Bot
 #define HOME_CHAT_ID "-1001644683170" 
 //#define VFR_CHAT_ID "-1001534956210"
 //#define GLEBOVA43_CHAT_ID "-1001701386178"
-#define BOT_NAME "@GRGMrz1980Bot" //"@GRGMrzHomeBot"
+#define BOT_NAME "@"
 
 // this is the Width and Height of Display which is 128 xy 32 
 #define LOGO16_GLCD_HEIGHT 32
@@ -28,7 +27,7 @@ WiFiClientSecure secured_client;
 #error("Height incorrect, please fix Adafruit_SSD1306.h!");
 #endif
 
-//https://api.telegram.org/bot5967306578:AAGIY_AzRAJTxaG78yA2HzQlvKiwa5XWzm0/getUpdates
+//https://api.telegram.org/
 //"CAACAgIAAx0CYgffogACASRjvd585U6oehUaMyelCi7tVj8XQQACMwcAAkRTwUmByLxH2zzKqC0E" - stiker 
 const unsigned long BOT_MTBS = 1000 * 3;//
 const unsigned long BOT_MTBS_HOUR = 1000 * 10; //3600; // 1 hour timeout for alive

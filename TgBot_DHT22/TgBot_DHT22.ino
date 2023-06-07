@@ -17,24 +17,18 @@ D8   = 15;
 #define TELEGRAM_DEBUG 1
 #define _debug 1
 
-#define WIFI_SSID "george"//"George"//"HTC"//"george"//"George"//"Xiaomi 11T"
-#define WIFI_PASSWORD "1234567891"//"12345678"// "1234567891"//"Z5N35W123"//"1234567891"  //"12345678"//"George1980"//"1234567891"
+#define WIFI_SSID "george"
+#define WIFI_PASSWORD "1234567891"
 WiFiClientSecure secured_client;
-#define BOT_TOKEN "5870790444:AAFm2znUWphDseKkliHksLd84xV_4nqKUfA"//GRGMrz1980Bot
+#define BOT_TOKEN ""//
 #define HOME_CHAT_ID "-1001644683170" 
-#define BOT_NAME "@GRGMrz1980Bot" //"@GRGMrzHomeBot"
+#define BOT_NAME "@" //"@"
 
 //#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
 
-//GRGMrzHomeBot
-//https://api.telegram.org/bot5967306578:AAGIY_AzRAJTxaG78yA2HzQlvKiwa5XWzm0/getUpdates
-//GRGMrz1980Bot
-//https://api.telegram.org/bot5870790444:AAFm2znUWphDseKkliHksLd84xV_4nqKUfA/getUpdates
-//village
-//6182957810:AAFK5NMhkUt9yVGMyna2XNr0xP_mcKY9Mqw
-//https://api.telegram.org/bot6182957810:AAFK5NMhkUt9yVGMyna2XNr0xP_mcKY9Mqw/getUpdates
 
-//"CAACAgIAAx0CYgffogACASRjvd585U6oehUaMyelCi7tVj8XQQACMwcAAkRTwUmByLxH2zzKqC0E" - stiker 
+
+
 const unsigned long BOT_MTBS = 500 * 2 * 30;//
 const unsigned long BOT_MTBS_HOUR = 1000 * 10; //3600; // 1 hour timeout for alive
 X509List cert(TELEGRAM_CERTIFICATE_ROOT); 

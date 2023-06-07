@@ -2,12 +2,12 @@
 #include <UniversalTelegramBot.h>
 
 #define WIFI_SSID "Xiaomi 11T"
-#define WIFI_PASSWORD "12345678"//"George1980"//"1234567891"//George1980
+#define WIFI_PASSWORD "12345678"
 WiFiClientSecure secured_client;
-#define BOT_TOKEN "5870790444:AAFm2znUWphDseKkliHksLd84xV_4nqKUfA"
+#define BOT_TOKEN "587"
 #define HOME_CHAT_ID "-1001644683170" 
 #define VFR_CHAT_ID "-1001534956210"
-//https://api.telegram.org/bot5870790444:AAFm2znUWphDseKkliHksLd84xV_4nqKUfA/getUpdates
+
 const unsigned long BOT_MTBS = 300;
 const unsigned long BOT_MTBS_HOUR = 1000 * 10; //3600; // 1 hour timeout for alive
 X509List cert(TELEGRAM_CERTIFICATE_ROOT); 

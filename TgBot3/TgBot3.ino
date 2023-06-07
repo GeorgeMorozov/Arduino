@@ -11,9 +11,9 @@
 
 // Wifi network station credentials
 #define WIFI_SSID "Xiaomi 11T"
-#define WIFI_PASSWORD "12345678"//"George1980"//"1234567891"//George1980
-#define BOT_TOKEN "5967306578:AAGIY_AzRAJTxaG78yA2HzQlvKiwa5XWzm0"//GeorgeHomeBot
-//https://api.telegram.org/bot5967306578:AAGIY_AzRAJTxaG78yA2HzQlvKiwa5XWzm0/getUpdates
+#define WIFI_PASSWORD "12345678"
+#define BOT_TOKEN "5967306578:"//
+
 #define HOME_CHAT_ID "-1001644683170" 
 
 const char *SUBSCRIBED_USERS_FILENAME = "/subscribed_users.json"; // Filename for local storage
